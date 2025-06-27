@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!-- Declaração do idioma da página como português do Brasil -->
+<head>
+<meta charset="UTF-8"><!-- Define a codificação de caracteres como UTF-8 -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurante VR Gourmet</title><!-- Título da página exibido na aba do navegador -->
+<!-- Links para os arquivos externos de estilo -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="estilo.css
+">
+</head>
+<body>
+<!-- Navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">VR Gourmet</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#about">Sobre</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#menu">Cardápio</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#hours">Horários</a>
+</li>
+<li class="nav-item">
+<a class="nav-link btn-cta" href="#contact">Contato</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+ 
+<!-- seção de destaques -->
+<header class="hero-section">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+<div class="col-12 text-center animate__animated animate__fadeInUp">
+<h1 class="display-4 text-white">VR Gourmet</h1>
+<p class="lead text-white">Comida de qualidade desde 1990</p>
+<a href="#menu" class="btn btn-primary btn-lg mt-3 animate__animated animate__pulse animate__infinite">Ver Cardápio</a>
+</div>
+</div>
+</div>
+<div class="hero-overlay"></div>
+</header>
+ 
+<!-- Sobre a Seção -->
+<section id="about" class="py-5">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-md-6 order-md-1 order-2 animate__animated animate__fadeInLeft">
+<h2 class="section-title">Sobre Nós</h2>
+<p class="lead">Fundado por Vitor Gabriel e Rhian Esteves em 1990,ex alunos da FATEC JAHU</p>
+<p>Nosso restaurante tem servido pratos deliciosos há mais de 30 anos. Utilizamos ingredientes frescos e locais para garantir a melhor qualidade em cada refeição.</p>
+<p>Com uma paixão pela gastronomia e atendimento personalizado, nos tornamos referência em comida de qualidade na região.</p>
+</div>
+<div class="col-md-6 order-md-2 order-1 animate__animated animate__fadeInRight">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" alt="Restaurant interior" class="img-fluid rounded shadow-lg">
+</div>
+</div>
+</div>
+</section>
+ 
+<!-- Horarios de funcionamento-->
+<section id="hours" class="py-5">
+<div class="container">
+<h2 class="text-center mb-4 section-title">Horário de Funcionamento</h2>
+<div class="row justify-content-center">
+<div class="col-md-8 animate__animated animate__fadeInUp">
+<table class="table table-hover">
+<thead>
+<tr>
+<th>Dia da Semana</th>
+<th>Horário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Segunda a Sexta</td>
+<td>11:00 - 15:00 | 18:00 - 23:00</td>
+</tr>
+<tr>
+<td>Sábado</td>
+<td>11:00 - 16:00 | 18:00 - 00:00</td>
+</tr>
+<tr>
+<td>Domingo</td>
+<td>11:00 - 16:00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+ 
+<!-- Menu  -->
+<section id="menu" class="py-5 bg-light">
+<div class="container">
+<h2 class="text-center mb-5 section-title">Nosso Cardápio</h2>
+ 
+<h3 class="text-center mb-4">Pratos Principais</h3>
+<div class="row">
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn">
+<div class="card card-hover">
+<img src="https://images.unsplash.com/photo-1611270629569-8b357cb88da9" class="card-img-top" alt="Spaghetti Carbonara">
+<div class="card-body">
+<h5 class="card-title">Espaguete Carbonara</h5>
+<p class="card-text">Delicioso espaguete com molho carbonara tradicional.</p>
+<span class="price">R$ 35,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn animate__delay-1s">
+<div class="card card-hover">
+<img src="https://images.unsplash.com/photo-1590947132387-155cc02f3212" class="card-img-top" alt="Pizza Margherita">
+<div class="card-body">
+<h5 class="card-title">Pizza Margherita</h5>
+<p class="card-text">Pizza artesanal com molho de tomate, muçarela e manjericão.</p>
+<span class="price">R$ 42,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn animate__delay-2s">
+<div class="card card-hover">
+<img src="https://images.unsplash.com/photo-1558030006-450675393462" class="card-img-top" alt="Filet Mignon">
+<div class="card-body">
+<h5 class="card-title">Filé Mignon</h5>
+<p class="card-text">Filé mignon grelhado com acompanhamentos.</p>
+<span class="price">R$ 59,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn">
+<div class="card card-hover">
+<img src="https://ideogram.ai/assets/image/lossless/response/1bkYukV3QUG8MyXzimD4HA" class="card-img-top" alt="Mushroom Risotto">
+<div class="card-body">
+<h5 class="card-title">Risoto de Cogumelos</h5>
+<p class="card-text">Risoto cremoso com cogumelos frescos e queijo parmesão.</p>
+<span class="price">R$ 38,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn animate__delay-1s">
+<div class="card card-hover">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" class="card-img-top" alt="Gourmet Burger">
+<div class="card-body">
+<h5 class="card-title">Hambúrguer Gourmet</h5>
+<p class="card-text">Pão artesanal, carne 180g, queijo cheddar e bacon.</p>
+<span class="price">R$ 32,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn animate__delay-2s">
+<div class="card card-hover">
+<img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" class="card-img-top" alt="Grilled Salmon">
+<div class="card-body">
+<h5 class="card-title">Salmão Grelhado</h5>
+<p class="card-text">Salmão com crosta de ervas e legumes sautée.</p>
+<span class="price">R$ 49,90</span>
+</div>
+</div>
+</div>
+</div>
+ 
+<h3 class="text-center mb-4">Bebidas</h3>
+<div class="row">
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn">
+<div class="card card-hover">
+<img src="https://cdn.11.vuzi.com.br/goquadros/product/474501.webp" class="card-img-top" alt="Red Wine">
+<div class="card-body">
+<h5 class="card-title">Vinho Tinto (Taça)</h5>
+<p class="card-text">Vinho tinto seco da casa, harmoniza com carnes.</p>
+<span class="price">R$ 18,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn animate__delay-1s">
+<div class="card card-hover">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdfx56uvejMqkMD4rBQY2sOFsBuwxhIIgHDw&s" class="card-img-top" alt="Craft Beer">
+<div class="card-body">
+<h5 class="card-title">Cerveja Artesanal</h5>
+<p class="card-text">Garrafa 500ml - opções: IPA, Pilsen ou Stout.</p>
+<span class="price">R$ 16,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn animate__delay-2s">
+<div class="card card-hover">
+<img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b" class="card-img-top" alt="Caipirinha">
+<div class="card-body">
+<h5 class="card-title">Caipirinha</h5>
+<p class="card-text">Tradicional com limão, açúcar e cachaça premium.</p>
+<span class="price">R$ 22,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn">
+<div class="card card-hover">
+<img src="https://preview.redd.it/todos-os-refrigerantes-est%C3%A3o-horr%C3%ADveis-v0-2a79uzexe09d1.jpg?width=320&crop=smart&auto=webp&s=ec1a191450845abed4d6b0c300d8dc6fffc25ff2" class="card-img-top" alt="Soda">
+<div class="card-body">
+<h5 class="card-title">Refrigerantes</h5>
+<p class="card-text">Lata 350ml - Coca-Cola, Guaraná, Sprite.</p>
+<span class="price">R$ 6,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn animate__delay-1s">
+<div class="card card-hover">
+<img src="https://images.unsplash.com/photo-1603569283847-aa295f0d016a" class="card-img-top" alt="Juice">
+<div class="card-body">
+<h5 class="card-title">Suco Natural</h5>
+<p class="card-text">Copos 500ml - Laranja, Abacaxi ou Uva.</p>
+<span class="price">R$ 12,90</span>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4 animate__animated animate__fadeIn animate__delay-2s">
+<div class="card card-hover">
+<img src="https://www.cardapiodigital.net/bododromo/gallery/cardapio/019_Bebidas.jpg" class="card-img-top" alt="Mineral Water">
+<div class="card-body">
+<h5 class="card-title">Água Mineral</h5>
+<p class="card-text">Garrafa 500ml - Com ou sem gás.</p>
+<span class="price">R$ 5,90</span>
+</div>
+</div>
+</div>
+</div>
+ 
+<div class="text-center mt-4">
+<a href="#contact" class="btn btn-outline-primary btn-lg">Faça sua reserva</a>
+</div>
+</div>
+</section>
+ 
+<!-- Formulario para contato -->
+<section id="contact" class="py-5">
+<div class="container">
+<h2 class="text-center mb-5 section-title">Entre em Contato</h2>
+<div class="row justify-content-center">
+<div class="col-md-8 animate__animated animate__fadeIn">
+<form class="contact-form">
+<div class="form-row">
+<div class="form-group col-md-6">
+<label for="nome">Nome:</label>
+<input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+</div>
+<div class="form-group col-md-6">
+<label for="email">E-mail:</label>
+<input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+</div>
+</div>
+ 
+<div class="form-group">
+<label for="telefone">Telefone (opcional):</label>
+<input type="number" class="number" id="telefone" placeholder="(00) 00000-0000"> <title="Somente números são permitidos">
+</div>
+ 
+<div class="form-group">
+<label for="mensagem">Mensagem:</label>
+<textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem..." required></textarea>
+</div>
+ 
+<div class="text-center">
+<button type="submit" class="btn btn-primary btn-lg btn-block">Enviar Mensagem <i class="fas fa-paper-plane ml-2"></i></button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+ 
+<!-- Rodapé -->
+<footer class="py-4">
+<div class="container">
+<div class="row">
+<div class="col-md-4 text-center text-md-left mb-3 mb-md-0">
+<h5>VR Gourmet</h5>
+<p>Comida de qualidade desde 1990</p>
+</div>
+<!-- Botoes ilustrativos de redes socias, nao temos as redes criadas , por isso ele joga pro inicio do site  -->
+<div class="col-md-4 text-center mb-3 mb-md-0">
+<a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+<a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+<a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+</div>
+<div class="col-md-4 text-center text-md-right">
+<p>© 2023 VR Gourmet</p>
+<p>Criado por Vitor e Rhian</p>
+</div>
+</div>
+</div>
+</footer>
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
